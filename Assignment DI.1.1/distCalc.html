@@ -12,47 +12,47 @@
 <p id="demo"></p>
 
 <script>
-
-var xmlhttp, myObj, x, txt = "";
-xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
-        txt += "<label>Contry 1: </label>"
-        txt += "<select name='position1' id='by1'>"
-        for (x of myObj.position) {
-            txt += "<option value='" + x.city + "'>";
-            txt += x.city + "</option>";
-        }
-        txt += "</select><br><br>"
-        document.getElementById("demo").innerHTML = txt;
-    }
-};
-xmlhttp.open("GET", "contriesLatLon.json", true);
-xmlhttp.send(null);
-
+  var xmlhttp, myObj, x, txt = "";
+  xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          myObj = JSON.parse(this.responseText);
+          txt += "<label>Contry 1: </label>"
+          txt += "<select name='position1' id='by1'>"
+          for (x of myObj.position) {
+              txt += "<option value='" + x.city + "'>";
+              txt += x.city + "</option>";
+          }
+          txt += "</select><br><br>"
+          document.getElementById("demo").innerHTML = txt;
+      }
+  };
+  xmlhttp.open("GET", "contriesLatLon.json", true);
+  xmlhttp.send(null);
 </script>
+
+
 <script>
-
-var xmlhttp, myObj, x, txt = "";
-xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
-        txt += "<label>Contry 2: </label>"
-        txt += "<select name='position2' id='by2'>"
-        for (x of myObj.position) {
-            txt += "<option value='" + x.city + "'>";
-            txt += x.city + "</option>";
-        }
-        txt += "</select>"
-        document.getElementById("demo").innerHTML = txt;
-    }
-};
-xmlhttp.open("GET", "contriesLatLon.json", true);
-xmlhttp.send(null);
-
+  var xmlhttp, myObj, x, txt = "";
+  xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          myObj = JSON.parse(this.responseText);
+          txt += "<label>Contry 2: </label>"
+          txt += "<select name='position2' id='by2'>"
+          for (x of myObj.position) {
+              txt += "<option value='" + x.city + "'>";
+              txt += x.city + "</option>";
+          }
+          txt += "</select>"
+          document.getElementById("demo").innerHTML = txt;
+      }
+  };
+  xmlhttp.open("GET", "contriesLatLon.json", true);
+  xmlhttp.send(null);
 </script>
+
+
 
 <button onclick="submit()">Submit</button>
 

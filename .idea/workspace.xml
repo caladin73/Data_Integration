@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26faf23e-5fc0-42be-b2b2-ba2f4af0e997" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.0/colorpicker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.1/contriesLatLon.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.1/distCalc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.1/submitReg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assignment DI.1.1/test.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/DI.1.0.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/aqua.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/black.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/blue.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/fuchsia.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/gray.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/green.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/lime.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/maroon.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/navy.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/olive.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/package.json" afterPath="$PROJECT_DIR$/Assignment DI.1.0/jsonColor.json" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/purple.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/red.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/silver.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/teal.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/white.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assignment DI.1.0/yellow.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assignment DI.1.1/distCalc.html" afterPath="$PROJECT_DIR$/Assignment DI.1.1/distCalc.html" />
+      <change beforePath="$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js" afterPath="$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="distCalc.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="distCalc.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/distCalc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="594">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submitReg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/submitReg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +49,18 @@
       <file leaf-file-name="haversineFormula.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contriesLatLon.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/contriesLatLon.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -63,8 +72,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="package_json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,7 +96,9 @@
         <option value="$PROJECT_DIR$/Assignment DI.1.0/package.json" />
         <option value="$PROJECT_DIR$/Assignment DI.1.0/colorpicker.html" />
         <option value="$PROJECT_DIR$/Assignment DI.1.1/package.json" />
+        <option value="$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js" />
         <option value="$PROJECT_DIR$/Assignment DI.1.1/distCalc.html" />
+        <option value="$PROJECT_DIR$/Assignment DI.1.1/test.html" />
       </list>
     </option>
   </component>
@@ -98,7 +109,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1227" />
     <option name="y" value="1" />
     <option name="width" value="1336" />
@@ -143,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataIntegrationClass" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -192,15 +203,15 @@
       <workItem from="1519635494626" duration="3827000" />
       <workItem from="1519751245791" duration="5792000" />
       <workItem from="1519895926398" duration="1451000" />
-      <workItem from="1519897390752" duration="394000" />
+      <workItem from="1519897390752" duration="3828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12087000" />
+    <option name="totallyTimeSpent" value="15521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1227" y="1" width="1336" height="1568" extended-state="0" />
+    <frame x="1227" y="1" width="1336" height="1568" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18730408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -301,26 +312,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/package.json" />
+    <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/submitReg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/contriesLatLon.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="40">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/haversineFormula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/distCalc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding />
         </state>
       </provider>
