@@ -14,21 +14,28 @@
 var obj, dbParam, xmlhttp, myObj, x, txt = "";
 
     //obj = {"lang":"language", "limit":10};
-    dbParam = JSON.stringify(obj);
+    //dbParam = JSON.stringify(obj);
 
     xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
 
             myObj = JSON.parse(this.responseText);
-            txt += "<table border='1' limit:40>"
+
+            txt += "<table border='1'>"
+            txt += "<tr><td>Number</td>";
+            txt += "<td>Language</td>";
+            txt += "<td>Speakers</td></tr>";
 
             for (x in myObj.lang) {
-                txt += "<tr><td>" + x + "</td>";
-                txt += "<td>" + myObj.lang[x].language + "</td>";
-                txt += "<td>" + myObj.lang[x].speakers + "</td></tr>";
+                if (x <= 39) {
+                    txt += "<tr><td>" + (x*1+1) + "</td>";
+                    txt += "<td>" + myObj.lang[x].language + "</td>";
+                    txt += "<td>" + myObj.lang[x].speakers + "</td></tr>";
+                } else {
+                    txt += "</table>"
+                }
             }
-            txt += "</table>"
 
             document.getElementById("demo").innerHTML = txt;
         }
@@ -36,7 +43,8 @@ var obj, dbParam, xmlhttp, myObj, x, txt = "";
 
     xmlhttp.open("POST", "languages.json", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlhttp.send("x=" + dbParam);
+    //xmlhttp.send("x=" + dbParam);
+    xmlhttp.send(null);
 
 </script>
 
