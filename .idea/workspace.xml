@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26faf23e-5fc0-42be-b2b2-ba2f4af0e997" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/DI.1.2/cal.html" afterPath="$PROJECT_DIR$/DI.1.2/cal.html" />
-    </list>
+    <list default="true" id="26faf23e-5fc0-42be-b2b2-ba2f4af0e997" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="cal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DI.1.2/cal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="706">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -221,12 +219,12 @@
       <workItem from="1519635494626" duration="3827000" />
       <workItem from="1519751245791" duration="5792000" />
       <workItem from="1519895926398" duration="1451000" />
-      <workItem from="1519897390752" duration="47075000" />
+      <workItem from="1519897390752" duration="48137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58768000" />
+    <option name="totallyTimeSpent" value="59830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1294" y="1" width="1269" height="1573" extended-state="0" />
@@ -452,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DI.1.2/cal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="706">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
