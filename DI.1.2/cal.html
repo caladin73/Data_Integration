@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h2>Number of speakes of each language:</h2>
+
+<p id="demo"></p>
+
+<script>
+
+    var xmlhttp, myObj, dbParam;
+
+    obj = { "table":"language", "limit":40 };
+    dbParam = JSON.stringify(obj);
+
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+            var r = myObj.lang.reduce(function(a, b) {
+                if (a[b.language]) {
+                    a[b.language] += b.speakers*1;
+                } else {
+                    a[b.language] = b.speakers*1;
+                }
+                return a;
+            }, {});
+            console.log(r);
+            //document.getElementById("demo").innerHTML = r;
+
+        }
+    };
+    xmlhttp.open("GET", "languages.json", true);
+    //xmlhttp.send(null);
+    xmlhttp.send("x=" + dbParam);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h2>Languages</h2>
+
+<p id="demo"></p>
+
+
+<script>
+
+    var xmlhttp, myObj, x, txt = "";
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+            txt += "<ol>";
+            for (x of myObj.lang) {
+                txt += "<li>";
+                txt += "Speakers: " + x.speakers + "<br>";
+                txt += "Language: " + x.language + "<br>";
+                txt += "Countrycode: " + x.countrycode + "<br>";
+                txt += "</li>"
+            }
+            txt += "</ol>";
+            document.getElementById("demo").innerHTML = txt;
+        }
+    };
+    xmlhttp.open("GET", "languages.json", true);
+    xmlhttp.send(null);
+
+</script>
+
+
+</body>
+</html>
