@@ -8,30 +8,31 @@
 
 <h2>Test page</h2>
 
-<p id="foo">&nbsp;</p>
+<button id="prev" onclick="prev()">prev</button>
+<button id="next" onclick="next()">next</button>
 
-<button onclick="document.getElementById('foo').innerHTML = prevWord();">Prev</button>
-<button onclick="document.getElementById('foo').innerHTML = nextWord();">Next</button>
+
+<p id="demo"></p>
+
+
 
 <script>
 
-    var nextWord = (function() {
-        var wordArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        var count = -1;
-        return function() {
-            return wordArray[++count % wordArray.length];
-        }
-    }());
+    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    var prevWord = (function() {
-        var wordArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        var count = 1;
-        return function() {
-            return wordArray[++count % wordArray.length];
-        }
-    }());
+    function getCurrentNumberIndex() {
+        return numbers.indexOf(document.getElementById("demo").innerHTML);
+    }
 
-    document.getElementById('foo').innerHTML = nextWord();
+    function next() {
+        var nextNumber = (getCurrentNumberIndex() + 1) % numbers.length;
+        document.getElementById("demo").innerHTML = numbers[nextNumber];
+    }
+
+    function prev() {
+        var nextNumber = (getCurrentNumberIndex() - 1 + numbers.length) % numbers.length;
+        document.getElementById("demo").innerHTML = numbers[nextNumber];
+    }
 
 </script>
 
