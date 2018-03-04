@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26faf23e-5fc0-42be-b2b2-ba2f4af0e997" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/DI.2.0.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/DI.1.0_Schema.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/DI.1.1_Schema.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/DI.1.2_Schema.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/test.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.0/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.1/DI.2.1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.1/action.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.1/inc/DbH.inc.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DI.2.1/inc/DbP.inc.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DI.2.0/DI.2.0.html" afterPath="$PROJECT_DIR$/DI.2.0/DI.2.0.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="examplejson.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson.php">
+      <file leaf-file-name="DI.2.1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DI.2.1/DI.2.1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DI.2.1/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -28,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <caret line="28" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -44,16 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DI.2.0.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DI.2.0/DI.2.0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="examplejson2f.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,13 +73,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="examplejson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbH.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DI.2.1/inc/DbH.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package_json" />
         <option value="JavaScript File" />
+        <option value="package_json" />
+        <option value="tsconfig.json" />
         <option value="HTML File" />
       </list>
     </option>
@@ -126,7 +156,14 @@
         <option value="$PROJECT_DIR$/Eksempler/php_json/examplejson2f.json" />
         <option value="$PROJECT_DIR$/Eksempler/php_json/examplejsonff.php" />
         <option value="$PROJECT_DIR$/DI.2.1/DI.2.0.html" />
+        <option value="$PROJECT_DIR$/DI.2.0/schema.json" />
+        <option value="$PROJECT_DIR$/DI.2.0/test.json" />
+        <option value="$PROJECT_DIR$/DI.2.0/package.json" />
+        <option value="$PROJECT_DIR$/DI.2.0/tsconfig.json" />
         <option value="$PROJECT_DIR$/DI.2.0/DI.2.0.html" />
+        <option value="$PROJECT_DIR$/DI.2.1/keyin.html" />
+        <option value="$PROJECT_DIR$/DI.2.1/DI.2.1.html" />
+        <option value="$PROJECT_DIR$/DI.2.1/action.php" />
       </list>
     </option>
   </component>
@@ -138,9 +175,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1294" />
+    <option name="x" value="916" />
     <option name="y" value="1" />
-    <option name="width" value="1272" />
+    <option name="width" value="1650" />
     <option name="height" value="1573" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -173,7 +210,13 @@
             <path>
               <item name="Data_Integration" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data_Integration" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DI.2.0" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DI.2.1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Data_Integration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Integration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DI.2.1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Data_Integration" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +253,7 @@
       <recent name="C:\xampp\htdocs\Data_Integration\DI.1.2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Data_Integration\DI.2.1" />
       <recent name="C:\xampp\htdocs\Data_Integration\Eksempler" />
       <recent name="C:\xampp\htdocs\Data_Integration\DI.1.2" />
       <recent name="C:\xampp\htdocs\Data_Integration\Assignment DI.1.1" />
@@ -253,18 +297,18 @@
       <workItem from="1519635494626" duration="3827000" />
       <workItem from="1519751245791" duration="5792000" />
       <workItem from="1519895926398" duration="1451000" />
-      <workItem from="1519897390752" duration="58736000" />
+      <workItem from="1519897390752" duration="69569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70429000" />
+    <option name="totallyTimeSpent" value="81262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1294" y="1" width="1272" height="1573" extended-state="0" />
+    <frame x="916" y="1" width="1650" height="1573" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16419142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2029703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21089385" sideWeight="0.5097879" order="7" side_tool="true" content_ui="tabs" />
@@ -339,6 +383,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -350,13 +395,6 @@
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.0/DI.1.0.js" />
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.0/package.json" />
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.0/1.html" />
-    <entry file="file://$PROJECT_DIR$/DI.1.0/jsonColor.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment DI.1.1/package.json" />
     <entry file="file://$PROJECT_DIR$/DI.1.1/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -394,14 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DI.1.1/contriesLatLon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -482,14 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DI.1.2/languages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Eksempler/php_json/inc/DbP.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -506,26 +528,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson.php">
+    <entry file="file://$PROJECT_DIR$/DI.2.0/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.0/DI.1.2_Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.1.0/jsonColor.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.0/DI.1.0_Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.1.1/contriesLatLon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.0/DI.1.1_Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.1.2/languages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.0/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.0/DI.2.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.php">
+    <entry file="file://$PROJECT_DIR$/DI.2.1/keyin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="80">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.json">
+    <entry file="file://$PROJECT_DIR$/DI.2.1/inc/DbH.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="165" lean-forward="false" selection-start-line="0" selection-start-column="165" selection-end-line="0" selection-end-column="165" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -538,10 +624,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DI.2.0/DI.2.0.html">
+    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="165" lean-forward="false" selection-start-line="0" selection-start-column="165" selection-end-line="0" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eksempler/php_json/examplejson2f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.1/DI.2.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DI.2.1/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>

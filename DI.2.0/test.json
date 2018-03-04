@@ -1,0 +1,8 @@
+{
+  "type_string": "Blondie, the Quintessential Cat",
+  "type_number": -3,
+  "type_integer": 8,
+  "type_null": null,
+  "type_array": [1, 2, 3, 4],
+  "type_object": {"1": "a", "2": "b", "3": "c"}
+}

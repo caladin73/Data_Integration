@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Test if all typed applies to JSON Schema",
+  "properties": {
+    "type_string": {
+      "type": "string"
+    },
+    "type_number": {
+      "type": "number"
+    },
+    "type_integer": {
+      "type": "integer"
+    },
+    "type_null": {
+      "type": "null"
+    },
+    "type_array": {
+      "type": "array"
+    },
+    "type_object": {
+      "type": "object"
+    }
+  }
+}
