@@ -1,40 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset=UTF-8>
+    <title></title>
+    <!-- jquery + dataTables er nødvendigt med denne  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
 
-<h2>Languages</h2>
+<h2>NOTE! that the jQuery I use for next page, doesn't work in all browsers!</h2>
+
+<h2>try different browsers</h2>
 
 <p id="demo"></p>
 
-
 <script>
 
-    var xmlhttp, myObj, x, txt = "";
+    //Script til dataTables - Har givet <table> et id med example - og tilføjet et <thead>
+    $(document).ready(function() {
+        $('#example').DataTable( {
+            responsive: true,
+            "pageLength": 40
+        } );
+    } );
+
+    var xmlhttp, myObj;
     xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             myObj = JSON.parse(this.responseText);
-            txt += "<ol>";
-            for (x of myObj.lang) {
-                txt += "<li>";
-                txt += "Speakers: " + x.speakers + "<br>";
-                txt += "Language: " + x.language + "<br>";
-                txt += "Countrycode: " + x.countrycode + "<br>";
-                txt += "</li>"
+            var r = myObj.lang.reduce(function(a, b) {
+                if (a[b.language]) {
+                    a[b.language] += b.speakers*1;
+                } else {
+                    a[b.language] = b.speakers*1;
+                }
+                return a;
+            }, {});
+            var sortable = [];
+            for (var obj in r) {
+                sortable.push([obj, r[obj]]);
             }
-            txt += "</ol>";
+            sortable.sort(function (a, b) {
+                if(a[0] < b[0]) return -1;
+                if(a[0] > b[0]) return 1;
+                return 0;
+            })
+            console.log(r);
+            console.log(sortable);
+            var txt = "", i;
+            txt += "<table border='1' id=\"example\">"
+            txt +="<thead>"
+            txt += "<tr><td>Number</td>";
+            txt += "<td>Language</td>";
+            txt += "<td>Speakers</td></tr>";
+            txt += "</thead>";
+            for (i = 0; i < sortable.length; i++) {
+                txt += "<tr><td>" + (i * 1 + 1) + "</td>";
+                txt += "<td>" + sortable[i][0] + "</td>";
+                txt += "<td>" + sortable[i][1] + "</td></tr>";
+            }
+            txt += "</table>"
             document.getElementById("demo").innerHTML = txt;
         }
     };
     xmlhttp.open("GET", "languages.json", true);
+    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send(null);
 
-</script>
 
+</script>
 
 </body>
 </html>
