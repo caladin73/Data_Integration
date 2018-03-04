@@ -11,11 +11,13 @@ $sql .= " where country.name =  '" . $_GET["country"] . "'";
 $res = $dbh->query($sql);
 
 $a = array();
+
 foreach ($res as $out) {
     array_push($a, $out);
 }
 
 $arrlength = count($a);
+
 for($x = 0; $x < $arrlength; $x++) {
 }
 
