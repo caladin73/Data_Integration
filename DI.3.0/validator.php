@@ -41,8 +41,8 @@ function libxml_display_errors() {
 libxml_use_internal_errors(true);
 
 $xml = new DOMDocument();
-$xml->load('booksXML2.xml');
-if (!$xml->schemaValidate('booksCanon.xsd')) {
+$xml->load('data/booksXML2.xml');
+if (!$xml->schemaValidate('data/booksCanon.xsd')) {
     print '<b>DOMDocument::schemaValidate() Generated Errors!</b>';
     libxml_display_errors();
 } else {
