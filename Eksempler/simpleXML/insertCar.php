@@ -24,4 +24,4 @@ $dealersecurity->addAttribute('buyback', $buyback);
 
 $cars->asXML($file);
 
-header('Location: ./readCars.php');
+header('Location: ./readBooks.php');
