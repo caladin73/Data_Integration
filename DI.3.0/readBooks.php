@@ -32,7 +32,7 @@
         <th>Comments</th>
     </tr>
     <?php
-        foreach ($booksCanon->book as $book) {
+        foreach ($books->book as $book) {
     printf("%12s<tr>"
     . "<td>" . $book['title'] . "</td>"
     . "<td>" . $book['edition'] . "</td>"
