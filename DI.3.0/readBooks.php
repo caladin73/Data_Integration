@@ -8,9 +8,18 @@
 <body>
 <?php
         // Read the XML document into a SimpleXMLElement object
-        $cars = simplexml_load_file("data/booksXML2.xml"
+        $books = simplexml_load_file("./data/booksXML2.xml"
                 , "SimpleXMLElement"
                 , LIBXML_NOCDATA );
+
+
+//echo $booksCanon->book;
+
+//var_dump($booksCanon['title']);
+
+var_dump($books->book);
+
+
 ?>
 <h1>Books</h1>
 <table>
@@ -33,7 +42,7 @@
     </tr>
     <?php
         foreach ($books->book as $book) {
-    printf("%12s<tr>"
+    printf("<tr>"
     . "<td>" . $book['title'] . "</td>"
     . "<td>" . $book['edition'] . "</td>"
     . "<td>" . $book['authors'] . "</td>"
@@ -49,11 +58,12 @@
     . "<td>" . $book['price'] . "</td>"
     . "<td>" . $book['currency'] . "</td>"
     . "<td>" . $book['comments'] . "</td>"
-    . "n%12s</tr>\n"
+    . "</tr>"
     );
     }
     ?>
 </table>
+
 <p><a href='./index.php'>Return Home</a></p>
 </body>
 </html>
