@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <title></title>
+</head>
+<body>
+
+<h2>Test page</h2>
+
+<button id="prev" onclick="prev()">prev</button>
+<button id="next" onclick="next()">next</button>
+
+
+<p id="demo"></p>
+
+
+
+<script>
+
+    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    function getCurrentNumberIndex() {
+        return numbers.indexOf(document.getElementById("demo").innerHTML);
+    }
+
+    function next() {
+        var nextNumber = (getCurrentNumberIndex() + 1) % numbers.length;
+        document.getElementById("demo").innerHTML = numbers[nextNumber];
+    }
+
+    function prev() {
+        var nextNumber = (getCurrentNumberIndex() - 1 + numbers.length) % numbers.length;
+        document.getElementById("demo").innerHTML = numbers[nextNumber];
+    }
+
+</script>
+
+
+</body>
+</html>
