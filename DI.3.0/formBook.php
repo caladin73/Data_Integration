@@ -2,29 +2,29 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Cars</title>
+    <title>Book input</title>
     <link rel='stylesheet' href='css/mystyles.css'/>
 
 </head>
 
 <body>
-<h1>Second Hand Sardine Cans</h1>
+<h1>Book input form</h1>
 <form action='insertCar.php' method='post'>
     <p>
         <strong>Reference:</strong><br/>
-        <input type='text' name='ref' required/>
+        <input type='text' name='ref'/>&nbsp Not Required
     </p>
     <p>
         <strong>Mycanon:</strong><br/>
-        <input type='text' name='mdu' required/>
+        <input type='text' name='mdu'/>&nbsp Not Required
     </p>
     <p>
         <strong>Book title:</strong><br/>
-        <input type='text' name='edition' required/>
+        <input type='text' name='edition'/>&nbsp Not Required
     </p>
     <p>
         <strong>Edition:</strong><br/>
-        <input type='number' name='edition' required/>
+        <input type='number' name='edition' required/>&nbsp Required
     </p>
     <p>
         <strong>Author Firstname:</strong><br/>
