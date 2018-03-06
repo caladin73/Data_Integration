@@ -31,10 +31,8 @@ $dom->preserveWhiteSpace = false;
 $dom->formatOutput = true;
 $dom->loadXML($xml_books->asXML());
 //Echo XML - remove this and following line if echo not desired
-echo $dom->saveXML();
+//echo $dom->saveXML();
 //Save XML to file - remove this and following line if save not desired
 $dom->save($file);
-
-die();
 
 header('Location: validator.php');
