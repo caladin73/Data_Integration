@@ -11,8 +11,16 @@
 <h1>Second Hand Sardine Cans</h1>
 <form action='insertCar.php' method='post'>
     <p>
+        <strong>Reference:</strong><br/>
+        <input type='text' name='ref' required/>
+    </p>
+    <p>
+        <strong>Mycanon:</strong><br/>
+        <input type='text' name='mdu' required/>
+    </p>
+    <p>
         <strong>Book title:</strong><br/>
-        <input name='title' value='4' readonly='readonly'/>
+        <input type='text' name='edition' required/>
     </p>
     <p>
         <strong>Edition:</strong><br/>
@@ -59,7 +67,7 @@
         <input type='text' name='comment' required/>
     </p>
     <p>
-        <input type='submit' value='Go!'/>
+        <input type='submit' value='Submit'/>
     </p>
 </form>
 </body>
