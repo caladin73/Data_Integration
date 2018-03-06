@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Cars</title>
+    <title>Books</title>
     <link rel='stylesheet' href='css/mystyles.css'/>
 </head>
 <body>
@@ -14,12 +14,21 @@
 
 
 //echo $booksCanon->book;
-
 //var_dump($booksCanon['title']);
+//var_dump($books);
+//die();
 
-var_dump($books->book);
+$children = $books->children();
+var_dump($children);
+var_dump($books['title']);
 
-
+/**
+foreach ($books->children() as $book); {
+    echo $book->title . "<br>";
+    echo $book->edition . "<br>";
+}
+*/
+die();
 ?>
 <h1>Books</h1>
 <table>
@@ -40,7 +49,7 @@ var_dump($books->book);
         <th>Currency</th>
         <th>Comments</th>
     </tr>
-    <?php
+    <?php /**
         foreach ($books->book as $book) {
     printf("<tr>"
     . "<td>" . $book['title'] . "</td>"
@@ -61,7 +70,7 @@ var_dump($books->book);
     . "</tr>"
     );
     }
-    ?>
+    */?>
 </table>
 
 <p><a href='./index.php'>Return Home</a></p>
