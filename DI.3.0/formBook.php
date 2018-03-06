@@ -16,7 +16,7 @@
     </p>
     <p>
         <strong>Mycanon:</strong><br/>
-        <input type='text' name='mdu'/>&nbsp Not Required
+        <input type='text' name='mycanon'/>&nbsp Not Required
     </p>
     <p>
         <strong>Book title:</strong><br/>
@@ -60,7 +60,7 @@
     </p>
     <p>
         <strong>Currency:</strong><br/>
-        <input type='text' name='currency'/>&nbsp Not Required
+        <input type='text' name='currency'/>&nbsp (GBP, DKR, US$ or EU)
     </p>
     <p>
         <strong>Comment:</strong><br/>
