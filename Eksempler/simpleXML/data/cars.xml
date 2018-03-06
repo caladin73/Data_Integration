@@ -30,4 +30,10 @@
     <price>55</price>
     <dealersecurity buyback="yes"/>
 </car>
+<car id="1" year="2013" manufacturer="gk" model="gkk">
+    <meter>77</meter>
+    <color>blue</color>
+    <price>56</price>
+    <dealersecurity buyback="yes"/>
+</car>
 </cars>

@@ -60,7 +60,12 @@
     </p>
     <p>
         <strong>Currency:</strong><br/>
-        <input type='text' name='currency'/>&nbsp (GBP, DKR, US$ or EU)
+        <select name="currency">
+            <option value="GBP">GBP</option>
+            <option value="DKR">DKR</option>
+            <option value="US$">US ($)</option>
+            <option value="EU&euro">Euro (€)</option>
+        </select>
     </p>
     <p>
         <strong>Comment:</strong><br/>
