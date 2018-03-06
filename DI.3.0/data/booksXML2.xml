@@ -98,4 +98,4 @@
     </comments>
   </book>
 
-<book ref="bog1" mycanon="jgj"><title>Min bog 1</title><edition>4</edition><authors><author><firstname>Peter</firstname><lastname>Hansen</lastname></author></authors><publisher><name>OBJ inc</name><year>2018</year><place>Kolding</place></publisher><pages>34</pages><isbn>DR#355</isbn><price>34</price><currency>GBP</currency><comments><comment>Mega god bog</comment></comments></book></booksCanon>
+<book ref="Reference" mycanon="Mycanon"><title>Book title</title><edition>4</edition><authors><author><firstname>Peter</firstname><lastname>Hansen</lastname></author></authors><publisher><name>OBJ inc</name><year>2018</year><place>Kolding</place></publisher><pages>34</pages><isbn>DR#355</isbn><price>34</price><currency>GBP</currency><comments><comment>Mega god bog</comment></comments></book></booksCanon>
