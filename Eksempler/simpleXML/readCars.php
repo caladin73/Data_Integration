@@ -12,7 +12,9 @@
                 , "SimpleXMLElement"
                 , LIBXML_NOCDATA );
 ?>
+
 <h1>Second Hand Sardine Cans</h1>
+
 <table>
     <?php
         foreach ($cars->car as $car) {
