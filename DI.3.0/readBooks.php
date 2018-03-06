@@ -16,6 +16,8 @@
 <h1>Books</h1>
 <table>
     <tr>
+        <th>Reference</th>
+        <th>Mycanon</th>
         <th>Title</th>
         <th>Edition</th>
         <th>Author</th>
@@ -31,6 +33,8 @@
     <?php
     foreach ($xml_books->book as $book) {
     printf("<tr>"
+    . "<td>" . $book['ref'] . "</td>"
+    . "<td>" . $book['mycanon'] . "</td>"
     . "<td>" . $book->title . "</td>"
     . "<td>" . $book->edition . "</td>"
     . "<td>" . $book->authors->author->firstname . " " . $book->authors->author->lastname . "</td>"
