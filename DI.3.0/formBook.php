@@ -20,7 +20,7 @@
     </p>
     <p>
         <strong>Book title:</strong><br/>
-        <input type='text' name='edition'/>&nbsp Not Required
+        <input type='text' name='title'/>&nbsp Not Required
     </p>
     <p>
         <strong>Edition:</strong><br/>

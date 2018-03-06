@@ -46,8 +46,10 @@ if (!$xml->schemaValidate('data/booksCanon.xsd')) {
     print '<b>DOMDocument::schemaValidate() Generated Errors!</b>';
     libxml_display_errors();
 } else {
-    echo "This document is valid!\n";
+    echo "<h3>This document is valid!</h3>\n";
 }
 ?>
+<br><br>
+<a href="index.html">Home</a>
 </body>
 </html>

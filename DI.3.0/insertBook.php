@@ -14,16 +14,14 @@ $id++;                                  // increment highest id for use
 */
 
 $book = $xml_books->addChild('book');
-$car->addAttribute('ref', $ref);
-$car->addAttribute('mdu', $mdu);
-$car->addAttribute('manufacturer', $manufacturer);
-$car->addAttribute('model', $model);
-$car->addChild('meter', $miles);
-$car->addChild('color', $color);
-$car->addChild('price', $price);
+$book->addAttribute('ref', $ref);
+$book->addAttribute('mdu', $mdu);
+$book->addChild('title', $title);
+$book->addChild('edition', $edition);
+$book->addChild('firstname', $firstname);
 $dealersecurity  = $car->addChild('dealersecurity');
 $dealersecurity->addAttribute('buyback', $buyback);
 
-$cars->asXML($file);
+$book->asXML($file);
 
-header('Location: ./readBooks.php');
+header('Location: validator.php');
