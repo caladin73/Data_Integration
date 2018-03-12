@@ -13,7 +13,9 @@ foreach ($res as $out) {
     array_push($a, $out);
 }
 
-//var_dump($a);
+var_dump($a);
+
+die();
 
 $arrlength = count($a);
 for($x = 0; $x < $arrlength; $x++) {
