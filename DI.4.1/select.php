@@ -21,10 +21,12 @@ while($row = $q->fetch(PDO::FETCH_ASSOC))
 
 $json = json_encode($result);
 
+//gemmer array i json file, hvis json er set eller error msg
 if ($json)
-    file_put_contents('result.json', $json);
+    file_put_contents('result.json', $json, header('Location: result.json'));
 else
     echo json_last_error_msg();
+
 
 
 
