@@ -115,4 +115,26 @@
       <comment>Mega god bog</comment>
     </comments>
   </book>
+  <book ref="Ref" mycanon="MyC">
+    <title>Book Title</title>
+    <edition>4</edition>
+    <authors>
+      <author>
+        <firstname>Simon</firstname>
+        <lastname>Myrvig</lastname>
+      </author>
+    </authors>
+    <publisher>
+      <name>OB</name>
+      <year>2008</year>
+      <place>Kolding</place>
+    </publisher>
+    <pages>88</pages>
+    <isbn>GG444</isbn>
+    <price>54</price>
+    <currency>GBP</currency>
+    <comments>
+      <comment>Den bedste bog</comment>
+    </comments>
+  </book>
 </booksCanon>
