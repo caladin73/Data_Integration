@@ -12,9 +12,6 @@ $percentage = $_POST["percentage"];
 
 $dbh = DbH::getDbH();
 $sql = "INSERT INTO countrylanguage (countrycode, language, isofficial, percentage) VALUES ('$countrycode', '$language', '$isofficial', '$percentage')";
-//$sql = "INSERT INTO countrylanguage (countrycode, language, isofficial, percentage) VALUES ('DNK', 'sprog', 'F', 5)";
-//print($sql);
-//die();
 $res = $dbh->query($sql);
 
 
