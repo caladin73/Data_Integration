@@ -9,22 +9,18 @@ $res = $dbh->query($sql);
 
 $a = array();
 
+
 foreach ($res as $out) {
     array_push($a, $out);
 }
 
+
 var_dump($a);
-
 die();
-
-$arrlength = count($a);
-for($x = 0; $x < $arrlength; $x++) {
-    echo $a[$x] . "<br>";
-    //echo $id . " " . $name . " " . $countrycode . " " . $district . " " . $population;
-}
 
 /**
 $xmit = json_encode($out);
 header('Content-Type: application/json');
+file_put_contents('result.json', json_encode($a));
 print($xmit);
- */
+*/
