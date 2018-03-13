@@ -6,9 +6,9 @@ $dbh = DbH::getDbH();
 $q = $dbh->prepare("select * from city");
 $q->execute();
 
-//jeg fandt ud af at jeg er nød til at encode array før json_encode, eller kommer der en fejl pga mærkelig tegn:
+//jeg fandt ud af at jeg er nød til at convert array før json_encode, ellers kommer der en fejl pga mærkelig tegn:
 // "malformed utf-8 characters possibly incorrectly encoded"
-//ved at bruge mb_convert_encoding før jeg gemmer datane i array, kan jeg løse det
+//ved at bruge mb_convert_encoding kan jeg løse det
 while($row = $q->fetch(PDO::FETCH_ASSOC))
 {
     foreach($row as &$value)

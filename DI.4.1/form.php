@@ -18,8 +18,8 @@ $q->execute();
 ?>
 
 <body>
-<h1>City input form</h1>
-<form action='insert.php' method='get'>
+<h1>City input by form</h1>
+<form action='curl.php' method='post'>
     <p>
         <strong>City Name:</strong><br/>
         <input type='text' name='name' required/>
