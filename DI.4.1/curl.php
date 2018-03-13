@@ -9,7 +9,7 @@
 <body>
 <h1>curl url:</h1>
 
-<p>Copy url link and run it in command line or click link to insert into world databse, via php program!</p>
+<p><b>POST Method: Copy url and run it in command line!</b></p>
 
 <?php
 require_once 'inc/DbP.inc.php';
@@ -25,14 +25,6 @@ $population = str_replace(' ', '+', $_POST["population"]);
 $actual_link = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) . "/insert.php";
 $url = "curl -v -X POST " . $actual_link . " -d" . " 'name=" . $name . "&countrycode=" . $countrycode . "&district=" . $district . "&population=" . $population . "'";
 echo $url;
-
-$insert = insert.php . "?" . "name=" . $name . "&countrycode=" . $countrycode . "&district=" . $district . "&population=" . $population;
-
-echo "<br><br><br><br>";
-
-echo $insert;
-
-echo  '<a href="'. $url .'">Link</a>'
 
 
 

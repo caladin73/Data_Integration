@@ -21,7 +21,7 @@ $q->execute();
 <h1>Assignment DI.4.0</h1>
 <p>Write a program that inserts new countrylanguage combinations into the world database sendt to it in a RESTful way ie from the terminal with curl.</p>
 <p>Input countrylanguage information:</p>
-<p><b>Please note hat you can only insert countrylanguage information, that not already exist:<b></p>
+<p><b>Please note that you can only insert countrylanguage information, that not already exist!<b></p>
     <form action='curl.php' method='post'>
     <p>
         <strong>Countrycode:</strong><br/>
