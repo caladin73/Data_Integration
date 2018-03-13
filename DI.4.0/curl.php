@@ -22,7 +22,7 @@ $isofficial = $_POST["isofficial"];
 $percentage = str_replace(' ', '+', $_POST["percentage"]);
 
 $actual_link = $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI']) . "/insert.php";
-$url = "curl -v -X POST" . " http://". $actual_link . " -d" . " 'countrycode=" . $countrycode . "&language=" . $language . "&isofficial=" . $isofficial . "&percentage=" . $percentage . "'";
+$url = "curl -v -X POST http://". $actual_link . " -d" . " 'countrycode=" . $countrycode . "&language=" . $language . "&isofficial=" . $isofficial . "&percentage=" . $percentage . "'";
 echo $url . "<br><br>";
 
 echo "<b>Or click link to pass information to php page that will insert into database!</b><br><br>";
