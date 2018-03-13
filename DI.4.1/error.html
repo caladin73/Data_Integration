@@ -1,10 +1,5 @@
-<br />
-<b>Notice</b>:  Undefined index: name in <b>C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php</b> on line <b>5</b><br />
-<br />
-<b>Notice</b>:  Undefined index: countrycode in <b>C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php</b> on line <b>6</b><br />
-<br />
-<b>Notice</b>:  Undefined index: district in <b>C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php</b> on line <b>7</b><br />
-<br />
-<b>Notice</b>:  Undefined index: population in <b>C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php</b> on line <b>8</b><br />
-<br />
-<b>Fatal error</b>:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newworld`.`city`, CONSTRAINT `city_ibfk_1` FOREIGN KEY (`countrycode`) REFERENCES `country` (`code`)) in C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php:12
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\xampp\htdocs\Data_Integration\DI.4.1\insert.php:14:</small>
+<b>object</b>(<i>PDOStatement</i>)[<i>2</i>]
+  <i>public</i> 'queryString' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'INSERT INTO city (name, countrycode, district, population) VALUES (&#39;Peters by 2&#39;, &#39;DNK&#39;, &#39;Drejens&#39;, &#39;250&#39;)'</font> <i>(length=106)</i>
+</pre>
