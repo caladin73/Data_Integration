@@ -12,7 +12,7 @@ require_once 'inc/DbP.inc.php';
 require_once 'inc/DbH.inc.php';
 
 $dbh = DbH::getDbH();
-$q = $dbh->prepare("select * from countrylanguage group by countrycode");
+$q = $dbh->prepare("select countrycode from city group by countrycode");
 $q->execute();
 
 ?>
