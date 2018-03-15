@@ -1,43 +1,22 @@
 <?php
-$json = file_get_contents('saveI.json');
-$content = json_decode($json);
-?>
+$json = file_get_contents('data.json');
+$content = json_decode($json, true);
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DI.6.0</title>
-</head>
-<body>
-
-<table border="1">
-    <tr>
-        <th>Quater</th>
-        <th>Population</th>
-        <th>Difference</th>
-        <th>Percentages</th>
-    </tr>
-
-<?php
-
-echo $content[1][1];
-
-/**
-    for ($x = 0; $x < count($content); $x++) {
-    //foreach ($content as $data) {
-        echo "<tr>";
-        echo "<td>" . $content[0][$x] . "</td>";
-        echo "<td>" . $content[1][$x] . "</td>";
-        echo "<td>" . "space" . "</td>";
-        echo "<td>" . "space" . "</td>";
-        echo "</tr>";
+foreach($content as $i => $item) {
+    echo $i;
+    echo " ";
+    echo $content[$i]['label'];
+    echo " ";
+    echo $content[$i]['population'];
+    echo " ";
+    if ($i < "1") {
+        echo "NA";
+        echo " ";
+        echo "NA";
+    } else {
+        echo $content[$i]['population']-$content[$i-1]['population'];
+        echo " ";
+        echo number_format((float)(($content[$i]['population']-$content[$i-1]['population'])/$content[$i-1]['population'])*100, 2) . "%";
     }
-*/
-?>
-
-
-</table>
-
-</body>
-</html>
+    echo  "<br>";
+}
