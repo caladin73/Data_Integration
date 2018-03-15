@@ -43,7 +43,6 @@ $content = json_decode($json, true);
 
 </table>
 
-<a href="url">link text</a>
 
 </body>
 </html>
