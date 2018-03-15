@@ -10,9 +10,9 @@ curl_close($chandle);
 
 // receiced as a one line json string
 $obj = json_decode($res); // unserialize to json obj
-prettyPrintForDebug($obj);   // comment out after debugging
+//prettyPrintForDebug($obj);   // comment out after debugging
 createNewJson($obj, $a, $urlnew);
-prettyPrintForDebug($urlnew);
+//prettyPrintForDebug($urlnew);
 
 function createNewJson($o, &$a, &$urlnew) {
     $k = '';
@@ -32,7 +32,9 @@ function createNewJson($o, &$a, &$urlnew) {
     file_put_contents($urlnew, $json);
 }
 
+/*
 function prettyPrintForDebug($obj) {
     $str = json_encode($obj, JSON_PRETTY_PRINT);
     print("<pre>".$str."</pre>");
 }
+*/
