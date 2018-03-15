@@ -40,12 +40,13 @@ switch ($verb) {
         break;
 
     case 'DELETE':
+        deleteJson($url, $arr, $name);
+        break;
         break;
 
     default:
         header("HTTP/1.1 ");
         header('Allow: GET, PUT, DELETE');
-
         break;
 }
 
@@ -79,4 +80,15 @@ function printName($name, $arr) {
         if($p->getName() === $name)
             print($p->toString());
     }
+}
+
+function deleteJson($url, &$arr, $name){
+    $newArr = [];
+    $arr = json_decode(file_get_contents($url));
+    foreach ($arr as $x) {
+        if ($x->name != $name) {
+            $newArr[] = $x;
+        }
+    }
+    file_put_contents($url, json_encode($newArr));
 }
