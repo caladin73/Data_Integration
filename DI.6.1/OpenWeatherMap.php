@@ -1,11 +1,20 @@
 <?php
 
-$url = 'http://api.openweathermap.org/data/2.5/weather?q=Kolding,dk&appid=818105d2f232ae11a90fe3f295d523cc';
+$url = 'http://api.openweathermap.org/data/2.5/weather?q=Kolding,dk&appid=07e02ba24a3caf7f46c40b512f315fc6';
 $chandle = curl_init($url);
+$urlnew = 'data.json';
+$a = [];
 
 curl_setopt($chandle, CURLOPT_RETURNTRANSFER, true);
 $res = curl_exec($chandle);
 curl_close($chandle);
+
+
+$json = json_encode($a);            // array of objects to json
+file_put_contents($urlnew, $json);
+die();
+
+
 // receiced as a one line json string
 $obj = json_decode($res); // unserialize to json obj
 //prettyPrintForDebug($obj);   // comment out after debugging
