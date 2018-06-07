@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cars>
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="carassignment.xsl">
 <car year="2002" manufacturer="Jet" model="Sardine Can 1.6L">
     <meter>95664</meter>
     <color>silver</color>
@@ -36,4 +37,5 @@
     <price>56</price>
     <dealersecurity buyback="yes"/>
 </car>
+<car id="1" year="1996" manufacturer="Audi" model="A6 Avant"><meter>250000</meter><color>Grey</color><price>50000</price><dealersecurity buyback="yes"/></car>
 </cars>

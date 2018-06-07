@@ -22,5 +22,5 @@ for($x = 0; $x < $arrlength; $x++) {
 }
 
 $xmit = json_encode($a);
-header('Content-Type: application/json');
-print($xmit);
+//header('Content-Type: application/json');
+echo $xmit;

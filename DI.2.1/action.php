@@ -24,3 +24,9 @@ for($x = 0; $x < $arrlength; $x++) {
 $xmit = json_encode($out);
 header('Content-Type: application/json');
 print($xmit);
+
+
+$url = 'someFile';
+$json = file_get_contents($url);
+$deSerializedClass = new SomeClass();
+$deSerializedClass->loadFromJson($json);

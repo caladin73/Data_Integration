@@ -137,4 +137,26 @@
       <comment>Den bedste bog</comment>
     </comments>
   </book>
+  <book ref="" mycanon="">
+    <title/>
+    <edition>2</edition>
+    <authors>
+      <author>
+        <firstname/>
+        <lastname/>
+      </author>
+    </authors>
+    <publisher>
+      <name/>
+      <year>1111</year>
+      <place/>
+    </publisher>
+    <pages>22</pages>
+    <isbn/>
+    <price>21</price>
+    <currency>DKR</currency>
+    <comments>
+      <comment/>
+    </comments>
+  </book>
 </booksCanon>
